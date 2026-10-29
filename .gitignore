@@ -7,3 +7,4 @@ __pycache__/
 *.zip
 .gittignore
 .streamlit/secrets.toml
+!.env.example

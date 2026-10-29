@@ -150,7 +150,7 @@ DOCUMENT B:
         client = genai.Client(api_key=api_key.strip())
 
         response = client.models.generate_content(
-            model="gemini-3.6-flash",
+            model="gemini-3.8-flash",
             contents=prompt,
             config={"response_mime_type": "application/json"},
         )
